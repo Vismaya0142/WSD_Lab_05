@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="bookstore.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<!-- <!DOCTYPE bookstore SYSTEM "bookstore.dtd"> -->
+<?xml-stylesheet type="text/xsl" href="bookstore.xsl"?>
+
+<bookstore xmlns="www.abc.com/bookstore">
+    <book id="B1">
+        <book-id>1</book-id>
+        <title>1984</title>
+        <author>George Orwell</author>
+        <genre>Dystopian</genre>
+        <price currency="Price">500</price>
+        <publication-year>1949</publication-year>
+        <publisher>Secker And Warburg</publisher>
+        <reviews>This book is a masterpiece. The portrayal of a dystopian society is chilling and thought-provoking.</reviews>
+    </book>
+    
+    <book id="B2">
+        <book-id>2</book-id>
+        <title>To Kill a Mockingbird</title>
+        <author>Harper Lee</author>
+        <genre>Fiction</genre>
+        <price currency="Price">625</price>
+        <publication-year>1960</publication-year>
+        <publisher>J.B. Lippincott And Co.</publisher>
+        <reviews>A powerful novel that explores themes of racial injustice and moral growth. A must-read for everyone.</reviews>
+    </book>
+    
+    <book id="B3">
+        <book-id>3</book-id>
+        <title>The Great Gatsby</title>
+        <author>F. Scott Fitzgerald</author>
+        <genre>Tragedy</genre>
+        <price currency="Price">350</price>
+        <publication-year>1925</publication-year>
+        <publisher>Charles Scribner's Sons</publisher>
+        <reviews>An iconic novel that captures the spirit of the Jazz Age. Beautifully written and poignant.</reviews>
+    </book>
+    
+    <book id="B4">
+        <book-id>4</book-id>
+        <title>Pride and Prejudice</title>
+        <author>Jane Austen</author>
+        <genre>Romance</genre>
+        <price currency="Price">400</price>
+        <publication-year>1813</publication-year>
+        <publisher>T. Egerton</publisher>
+        <reviews>A timeless classic that explores the complexities of love, class, and social expectations.</reviews>
+    </book>
+    
+    <book id="B5">
+        <book-id>5</book-id>
+        <title>The Hobbit</title>
+        <author>J.R.R. Tolkien</author>
+        <genre>Fantasy</genre>
+        <price currency="Price">450</price>
+        <publication-year>1937</publication-year>
+        <publisher>George Allen And Unwin</publisher>
+        <reviews>A captivating fantasy adventure that sets the stage for The Lord of the Rings. A must-read for fantasy lovers.</reviews>
+    </book>
+    
+    <book id="B6">
+        <book-id>6</book-id>
+        <title>Brave New World</title>
+        <author>Aldous Huxley</author>
+        <genre>Dystopian</genre>
+        <price currency="Price">500</price>
+        <publication-year>1932</publication-year>
+        <publisher>Chatto And Windus</publisher>
+        <reviews>A visionary novel that explores the dangers of a technologically controlled society. A thought-provoking read.</reviews>
+    </book>
+    
+    <book id="B7">
+        <book-id>7</book-id>
+        <title>The Catcher in the Rye</title>
+        <author>J.D. Salinger</author>
+        <genre>Fiction</genre>
+        <price currency="Price">550</price>
+        <publication-year>1951</publication-year>
+        <publisher>Little, Brown and Company</publisher>
+        <reviews>An iconic novel that captures the struggles of adolescence and the search for identity. A must-read for young adults.</reviews>
+    </book>
+</bookstore>
